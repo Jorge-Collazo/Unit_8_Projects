@@ -6,8 +6,8 @@
    Case Problem 2
 
    Sudoku Style Sheet
-   Author: 
-   Date:   
+   Author: Jorge Collazo
+   Date:   11-22-19
 
    Filename:         jpf_sudoku.css
 
@@ -20,3 +20,6 @@
 /* Inner Table Styles */
 
 
+table.subTable tr td{
+   empty-cells: show;
+}
