@@ -15,11 +15,42 @@
 
 /* Table Styles */
 
+table.spuzzle{
+   border-collapse: collapse;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 90%;
+}
+td{
+   border:5px outset grey;
+   width: 33.3%;
+}
+th{
+   color: gray;
+   padding-right: 10px;
+   padding-bottom: 10px;
+}
 
 
 /* Inner Table Styles */
 
-
-table.subTable tr td{
-   empty-cells: show;
+table.subTable{
+   border-collapse: collapse;
+   width: 100%;
+}
+table.subTable td{
+   box-shadow:inset 0px 0px 15px ;
+   border: 1px solid black;
+   color: blue;
+   height: 40px;
+   text-align: center;
+   vertical-align: center;
+}
+td.goldBox{
+   background-color: rgb(228, 199, 42);
+}
+td.greenBox{
+   background-color: rgb(203, 229, 130);
 }
