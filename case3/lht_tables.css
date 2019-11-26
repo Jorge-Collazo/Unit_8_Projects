@@ -72,6 +72,19 @@
       width: 85%;
    }
    th, td{
-      
+      border: 1px solid grey;
+      font-size: 0.85em;
+      font-weight: normal;
+      padding: 5px;
+      align-content: top;
+      width: 14.28%;
+      word-wrap:
+   }
+   dt{
+      background-color: rgb(171, 171, 171, 0.6);
+      color: rgb(11, 12, 145);
+   }
+   dt{
+      content: attr(data-date);
    }
 }
