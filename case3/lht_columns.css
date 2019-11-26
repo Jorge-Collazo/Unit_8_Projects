@@ -29,6 +29,8 @@ article{
    -moz-column-rule: 1px solid rgb(154, 64, 31);
    -webkit-column-rule: 1px solid rgb(154, 64, 31);
    column-rule: 1px solid rgb(154, 64, 31);
+   widows: 2;
+   orphans: 2;
 }
 
 article h1{
